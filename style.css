@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -25,9 +26,14 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-color: tomato;
+    background-image: linear-gradient(orange, Tomato);
     padding: 10px 40px;
     border-radius: 10px;
     color: white;
     font-weight: 700;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
